@@ -32,6 +32,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             }
             case R.id.btnTimePicker: {
+                Intent intent = new Intent(getBaseContext(),TimePickerDemoActivity.class);
+                startActivity(intent);
                 break;
             }
         }
