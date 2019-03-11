@@ -12,3 +12,8 @@ https://www.tutorialspoint.com/android/android_datepicker_control.htm
 
 https://developer.android.com/guide/topics/ui/controls/pickers
 https://www.tutorialspoint.com/android/android_timepicker_control.htm
+
+### Number Picker
+
+https://developer.android.com/reference/android/widget/NumberPicker
+https://stackoverflow.com/questions/17708325/android-numberpicker-with-formatter-doesnt-format-on-first-rendering

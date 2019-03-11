@@ -10,6 +10,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private Button btnDatePicker;
     private Button btnTimePicker;
+    private Button btnNumberPicker;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,9 +19,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         btnDatePicker = findViewById(R.id.btnDatePicker);
         btnTimePicker = findViewById(R.id.btnTimePicker);
+        btnNumberPicker = findViewById(R.id.btnNumberPicker);
 
         btnDatePicker.setOnClickListener(this);
         btnTimePicker.setOnClickListener(this);
+        btnNumberPicker.setOnClickListener(this);
     }
 
     @Override
@@ -33,6 +36,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
             case R.id.btnTimePicker: {
                 Intent intent = new Intent(getBaseContext(),TimePickerDemoActivity.class);
+                startActivity(intent);
+                break;
+            }
+            case R.id.btnNumberPicker:{
+                Intent intent = new Intent(getBaseContext(),NumberPickerDemoActivity.class);
                 startActivity(intent);
                 break;
             }

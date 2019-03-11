@@ -19,10 +19,19 @@
 
     <Button
         android:id="@+id/btnTimePicker"
-        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="Time Picker"
+        android:textAllCaps="false"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnNumberPicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Number Picker"
         android:textAllCaps="false"
         android:textSize="25dp" />
 </LinearLayout>

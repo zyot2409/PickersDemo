@@ -26,6 +26,10 @@
             android:name=".TimePickerDemoActivity"
             android:label="Time Picker Demo"
             android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".NumberPickerDemoActivity"
+            android:label="Number Picker Demo"
+            android:parentActivityName=".MainActivity" />
     </application>
 
 </manifest>
